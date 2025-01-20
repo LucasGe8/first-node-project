@@ -1,0 +1,23 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "primer proyecto",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js #esto es una app de node",
+    "dev": "nodemon ./src/app.js #esto es una app de node"
+  },
+  "keywords": [
+    "first",
+    "project",
+    "nodejs"
+  ],
+  "author": "LeoricGe8",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
