@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node ./src/app.js #esto es una app de node",
     "dev": "nodemon ./src/app.js #esto es una app de node"
+    
   },
   "keywords": [
     "first",
@@ -15,7 +16,8 @@
   "author": "LeoricGe8",
   "license": "ISC",
   "dependencies": {
-    "colors": "^1.4.0"
+    "colors": "^1.4.0",
+    "cowsay": "^1.6.0"
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
